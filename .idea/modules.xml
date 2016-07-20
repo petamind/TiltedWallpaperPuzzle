@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AmazingWallpaperPuzzle.iml" filepath="$PROJECT_DIR$/AmazingWallpaperPuzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autofittext/autofittext.iml" filepath="$PROJECT_DIR$/autofittext/autofittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flipImagView/flipImagView.iml" filepath="$PROJECT_DIR$/flipImagView/flipImagView.iml" />
+    </modules>
+  </component>
+</project>

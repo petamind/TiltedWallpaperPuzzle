@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">瓷砖拼图HD</string>
+    <string name="title_activity_game_panel">GamePanelActivity</string>
+    <string name="clicked">点击：</string>
+    <string name="tile_count">正确：</string>
+    <string name="start">开始</string>
+    <string name="help">帮助</string>
+    <string name="share">好游！下载地址 https://play.google.com/store/apps/details?id=</string>
+    <string name="send_to">分享</string>
+    <string name="hint">点击一个瓷砖来移动到空的位置，直到你可以看到一个完整的画面。</string>
+    <string name="setting_wallpaper">设置为墙纸！</string>
+    <string name="willsetwall">你要设置这张图片作为墙纸？</string>
+    <string name="willsetwall_title">设置为墙纸?</string>
+    <string name="please_wait">请稍等一会。。。</string>
+    <string name="finish_setting_wall">恭喜！新壁纸已设好！</string>
+    <string name="help_text">-点击瓷砖将其移动到空的瓷砖。
+        \n-只有瓷砖旁边的空瓷砖可以移动。
+        \n-你赢当板上能看到完整的画面。
+        \n-然后您可以设置所获得的图片作为壁纸。</string>
+    <string name="win_text">恭喜！\n你赢了！\n你可以设置图片作为壁纸，壁纸较大的电路板尺寸将授予质量更高。</string>
+    <string name="will_load">新游戏？</string>
+    <string name="confirm_exit">按两次退出</string>
+    <string name="cannot_move">哎呀！不能移动！</string>
+    <string name="sample_image">样品图片</string>
+
+</resources>

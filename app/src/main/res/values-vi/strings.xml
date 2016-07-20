@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chơi xếp hình HD</string>
+    <string name="title_activity_game_panel">GamePanelActivity</string>
+    <string name="clicked">Đã bấm:</string>
+    <string name="tile_count">Đúng chỗ:</string>
+    <string name="start">BẮT ĐẦU</string>
+    <string name="help">HƯỚNG DẪN</string>
+    <string name="cannot_move">Ooops!Không di chuyển được!</string>
+    <string name="sample_image">Hình mẫu</string>
+    <string name="share">Trò chơi này rất là thú vị! Tải ngay tại https://play.google.com/store/apps/details?id=</string>
+    <string name="send_to">Chia sẻ tại</string>
+    <string name="hint">Di chuyển các mảnh ghép cho đến khi bạn thấy được một bức trahh hoàn chỉnh.</string>
+    <string name="setting_wallpaper">Đặt làm hình nền!</string>
+    <string name="willsetwall">Bạn muốn cài đặt làm hình nền không?</string>
+    <string name="willsetwall_title">Đặt làm hình nền?</string>
+    <string name="please_wait">Xin chờ một lát...!</string>
+    <string name="finish_setting_wall">Xin chúc mừng! Hình nền đã được cài đặt thành công!</string>
+    <string name="help_text">Bấm vào một ô để di chuyển tới ô trống bên cạnh. Bạn thắng khi các mảnh ghép thành hình hoàn chỉnh. Sau đó bạn có thể cài hình đó làm hình nền, ô càng nhiều độ phân giải càng cao nhưng trò chơi cũng khó hơn.</string>
+    <string name="win_text">Chúc mừng! \nBạn đã thắng!\nBạn có thể cài làm hình nền, nhiều ô hơn sẽ cho bạn hình nền có độ phân giải cao hơn.</string>
+    <string name="will_load">Bấm OK để tải lại trò chơi?</string>
+    <string name="confirm_exit">Bấm hai lần để thoát</string>
+</resources>

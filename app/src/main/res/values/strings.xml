@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Tiled Picture Puzzle HD</string>
+    <string name="music_on" translatable="false">key_music_on</string>
+    <string name="title_activity_game_panel">GamePanelActivity</string>
+    <string name="clicked">Clicked:</string>
+    <string name="tile_count">Correct tiles:</string>
+    <string name="key_size" translatable="false">key_size</string>
+    <string name="start">START</string>
+    <string name="help">HELP</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8792490037625373/9275625040</string>
+    <string name="interestial_ad_unit_id" translatable="false">ca-app-pub-8792490037625373/1752358248</string>
+    <string name="share">This game is awesome! Try it out at https://play.google.com/store/apps/details?id=</string>
+    <string name="send_to">Share to</string>
+    <string name="hint">Click a tile to move to the empty tile, until you can see a complete picture.</string>
+    <string name="setting_wallpaper">Applying new wallpaper!</string>
+    <string name="willsetwall">Do you want to set this picture as wallpaper?</string>
+    <string name="willsetwall_title">Set wallpaper?</string>
+    <string name="please_wait">Please wait...!</string>
+    <string name="finish_setting_wall">Congratulation! A new wallpaper is set!</string>
+    <string name="help_text">-Click a tile to move it to the empty tile.
+        \n- Only tiles next to the empty tile can move.
+        \n-You win when tiles form a complete picture on the board.
+        \n-You can set the obtained picture as wallpaper afterward.</string>
+    <string name="win_text">Congratulation! \nYou win!\n You can set image as wallpaper, larger board size will award higher quality of wallpaper.</string>
+    <string name="will_load">Press OK to set other tile game?</string>
+    <string name="premium" translatable="false">key_premium</string>
+    <string name="confirm_exit">Press again to exit</string>
+    <string name="cannot_move">Ooops!Not movable!</string>
+    <string name="sample_image">Sample picture</string>
+    <array name="tile_background_list">
+        <item>@drawable/round_bg_blue</item>
+        <item>@drawable/round_bg_red</item>
+        <item>@drawable/round_bg_orange</item>
+        <item>@drawable/round_bg_yellow</item>
+        <item>@drawable/round_bg_gradient_rainbow</item>
+        <item>@drawable/round_bg_green</item>
+        <item>@drawable/round_bg_deep_orange</item>
+        <item>@drawable/round_bg_holo_orange</item>
+        <item>@drawable/round_bg_lime</item>
+        <item>@drawable/round_bg_gradient</item>
+    </array>
+    <array name="hd_background_list">
+        <item>@drawable/hd_wall_1</item>
+        <item>@drawable/hd_wall_2</item>
+        <item>@drawable/hd_wall_3</item>
+        <item>@drawable/hd_wall_4</item>
+        <item>@drawable/hd_wall_5</item>
+        <item>@drawable/hd_wall_6</item>
+        <item>@drawable/hd_wall_7</item>
+        <item>@drawable/hd_wall_8</item>
+        <item>@drawable/hd_wall_9</item>
+        <item>@drawable/hd_wall_10</item>
+        <item>@drawable/hd_wall_11</item>
+        <item>@drawable/hd_wall_12</item>
+        <item>@drawable/hd_wall_13</item>
+        <item>@drawable/hd_wall_14</item>
+        <item>@drawable/hd_wall_15</item>
+        <item>@drawable/hd_wall_16</item>
+        <item>@drawable/hd_wall_17</item>
+        <item>@drawable/hd_wall_18</item>
+        <item>@drawable/hd_wall_19</item>
+        <item>@drawable/hd_wall_20</item>
+        <item>@drawable/hd_wall_21</item>
+        <item>@drawable/hd_wall_22</item>
+        <item>@drawable/hd_wall_23</item>
+        <item>@drawable/hd_wall_24</item>
+        <item>@drawable/hd_wall_25</item>
+        <item>@drawable/hd_wall_26</item>
+        <item>@drawable/hd_wall_27</item>
+        <item>@drawable/hd_wall_28</item>
+        <item>@drawable/hd_wall_29</item>
+        <item>@drawable/hd_wall_30</item>
+        <item>@drawable/hd_wall_31</item>
+        <item>@drawable/hd_wall_32</item>
+        <item>@drawable/hd_wall_33</item>
+        <item>@drawable/hd_wall_34</item>
+        <item>@drawable/hd_wall_35</item>
+        <item>@drawable/hd_wall_36</item>
+        <item>@drawable/hd_wall_37</item>
+        <item>@drawable/hd_wall_38</item>
+        <item>@drawable/hd_wall_39</item>
+        <item>@drawable/hd_wall_40</item>
+        <item>@drawable/hd_wall_41</item>
+        <item>@drawable/hd_wall_42</item>
+        <item>@drawable/hd_wall_43</item>
+        <item>@drawable/hd_wall_44</item>
+        <item>@drawable/hd_wall_45</item>
+        <item>@drawable/hd_wall_46</item>
+        <item>@drawable/hd_wall_47</item>
+        <item>@drawable/hd_wall_48</item>
+        <item>@drawable/hd_wall_49</item>
+        <item>@drawable/hd_wall_50</item>
+        <item>@drawable/hd_wall_51</item>
+    </array>
+</resources>

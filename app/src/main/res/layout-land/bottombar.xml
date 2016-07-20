@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_toRightOf="@+id/board">
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+    <ImageButton
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/round_shadow"
+        android:src="@drawable/ic_share" />
+
+    <ImageButton
+        android:id="@+id/music_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_shadow"
+        android:src="@drawable/ic_music" />
+
+    <TextView
+        android:id="@+id/click_count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:text="@string/clicked"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:drawableRight="@android:drawable/ic_menu_help"/>
+
+    <TextView
+        android:id="@+id/correct_tiles_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:freezesText="true"
+        android:onClick="onClick"
+        android:text="@string/tile_count"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <me.grantland.widget.AutofitScrollTextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/correct_tiles_text"
+        android:layout_below="@+id/click_count_text"
+        android:layout_toLeftOf="@id/share_button"
+        android:gravity="center_vertical"
+        android:maxLines="8"
+        android:text="@string/hint"
+        android:textSize="30sp" />
+
+</RelativeLayout>

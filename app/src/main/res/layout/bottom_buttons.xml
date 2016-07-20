@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fiv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/help_button"
+    android:layout_alignParentBottom="true">
+
+    <ImageButton
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_shadow"
+        android:src="@drawable/ic_share" />
+
+    <ImageButton
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/round_shadow"
+        android:onClick="onClick"
+        android:src="@drawable/ic_rate_star" />
+
+    <ImageButton
+        android:id="@+id/upgrade_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/round_shadow"
+        android:onClick="onBuyNoAdsButtonClicked"
+        android:src="@drawable/ic_cart" />
+
+    <fr.castorflex.android.flipimageview.library.FlipImageView
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/music_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/round_shadow"
+        android:src="@drawable/ic_music"
+        fiv:flipDrawable="@drawable/ic_music_off"
+        fiv:flipDuration="200"
+        fiv:flipInterval="6800"
+        fiv:flipRotations="x"
+        fiv:flipStartAt="2000"
+        fiv:isAnimated="false"
+        fiv:isAutoFlipped="false"
+        fiv:isFlipped="false" />
+</LinearLayout>

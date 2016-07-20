@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fr.castorflex.android.flipimageview.library.FlipImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fiv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tile"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    fiv:flipDrawable="@drawable/round_bg_transparent"
+    fiv:flipDuration="200"
+    fiv:flipInterval="6800"
+    fiv:flipRotations="x"
+    fiv:isAnimated="true"
+    fiv:isAutoFlipped="false"
+    fiv:isFlipped="false"
+    android:layout_margin="1dp">
+    <!--android:src="@drawable/round_bg_orange"-->
+</fr.castorflex.android.flipimageview.library.FlipImageView>

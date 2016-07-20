@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+
+    >
+
+  <!--  <fr.castorflex.android.flipimageview.library.FlipImageView
+    xmlns:fiv="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/round_bg_yellow"
+        fiv:flipDrawable="@android:color/transparent"
+        fiv:flipDuration="200"
+        fiv:flipInterval="6800"
+        fiv:flipRotations="x"
+        fiv:flipStartAt="2000"
+        fiv:isAnimated="true"
+        fiv:isAutoFlipped="true"
+        fiv:isFlipped="false" />-->
+
+    <me.grantland.widget.AutofitScrollTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:maxLines="3"
+        android:text="@string/app_name"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/splash_title_size" />
+
+
+    <include layout="@layout/menu" />
+
+    <include layout="@layout/bottom_buttons"/>
+    <!--<ImageButton
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/round_shadow"
+        android:src="@drawable/ic_share" />
+
+    <fr.castorflex.android.flipimageview.library.FlipImageView
+        android:id="@+id/music_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_shadow"
+        android:src="@drawable/ic_music"
+        fiv:flipDrawable="@drawable/ic_music_off"
+        fiv:flipDuration="200"
+        fiv:flipInterval="6800"
+        fiv:flipRotations="x"
+        fiv:flipStartAt="2000"
+        fiv:isAnimated="false"
+        fiv:isAutoFlipped="false"
+        fiv:isFlipped="false" />
+
+    <ImageButton
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_shadow"
+        android:onClick="onClick"
+        android:src="@drawable/ic_rate_star" />-->
+</RelativeLayout>

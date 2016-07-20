@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- "shadow" -->
+    <item>
+        <shape android:shape="rectangle" >
+            <stroke  android:color="@color/colorAccent"
+                android:width="8dp"/>
+            <corners android:radius="10dp"/>
+
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle" >
+            <stroke  android:color="@color/colorPrimary"
+                android:width="2dp"/>
+            <padding android:left="7dp" android:top="7dp"
+                android:right="7dp" android:bottom="7dp"/>
+
+
+        </shape>
+    </item>
+
+
+   <!-- <item android:bottom="3px" android:left="3px">
+        <shape android:shape="rectangle" >
+            <stroke android:width="3dp" android:color="#ffffff"/>
+            <padding android:left="7dp" android:top="7dp"
+                android:right="7dp" android:bottom="7dp" />
+        </shape>
+
+    </item>-->
+
+</layer-list>

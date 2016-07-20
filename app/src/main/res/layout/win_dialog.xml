@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+    <!--android:background="@drawable/round_bg_orange"-->
+
+    <me.grantland.widget.AutofitScrollTextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/round_bg_deep_orange"
+        android:gravity="center"
+        android:minLines="2"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="@string/win_text"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:src="@drawable/ic_instructor" />
+
+</LinearLayout>
