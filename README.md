@@ -1,4 +1,4 @@
-# AmazingWallpaperPuzzle
+# TiledWallpaperPuzzle
 Tiled wallpaper puzzle game
 
 This is the puzzle game that let users play and win HD wallpaper.
